@@ -27,7 +27,8 @@ public class LeepYear {
         }
 
         //- 另一種判斷處理
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        if ((year
+                != 0) || year % 400 == 0) {
             System.out.printf("%d年是<閏年>\n", year);
         }else {
             System.out.printf("%d年是<平年>\n", year);
